@@ -1,5 +1,5 @@
 jQuery(function ($) {
-    var date = new Date('November 8, 2020 14:20:00');
+    var date = new Date('April 1, 2022 17:15:00');
     var days = $('#days');
     var hours = $('#hours');
     var minutes = $('#minutes');
