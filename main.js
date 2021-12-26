@@ -1,5 +1,5 @@
 jQuery(function ($) {
-    var date = new Date('April 1, 2021 17:15:00');
+    var date = new Date('April 1, 2022 17:15:00');
     var days = $('#days');
     var hours = $('#hours');
     var minutes = $('#minutes');
@@ -8,7 +8,7 @@ jQuery(function ($) {
     setDate();
     function setDate() {
         var now = new Date();
-        var s = ((now.getTime() - date.getTime()) / 1000);
+        var s = ((date.getTime() - now.getTime()) / 1000);
 
         var d = Math.floor(s / 86400);
         days.html('<h2>'+ (d<0? 0 : d) +'</h2><p>J.</p>');
